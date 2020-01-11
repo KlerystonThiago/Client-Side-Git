@@ -1,0 +1,76 @@
+body, html{
+    width:100%;
+    height:100%;    
+}
+
+@font-face {
+  font-family: Monaco;
+  src: url('../fonts/monaco.ttf');
+}
+
+.Github-Search {
+    width: 415px;
+    height: 81px;
+    position:relative;
+    float:left;
+    font-family: Monaco;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .Github-Search .text-style-1 {
+    font-family: Raleway;
+    font-weight: 200;
+    font-style: italic;
+    position:relative;
+    float:right;
+    top: 5px;
+    left: -5px;
+  }
+
+.Home{
+    width: 1152px;
+    height: 700px;
+    background-color: white;
+    margin:0px auto;
+    border:0px solid #ccc;
+  }
+
+  .myContainer {
+      width:100%;
+      height:100%;
+  }
+
+  .Search-Input {
+    width: 75% !important;
+    height: 50px;
+    background-color: white;
+    padding-left:15px;
+    border: 1px solid #edecec;
+    box-shadow: 0px 0px 3px #ccc;
+    border-radius:3px 0px 0px 3px;
+  }
+
+  .button {
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ac53f2;
+    color:white;
+    font-size:25px;    
+    outline-width: none !important;
+  }
+
+  .ico-search{
+    transform: rotateY(180deg);
+  }
+
+  .btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6710a9;
+    border-color: #6710a9;
+  }

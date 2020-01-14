@@ -3,7 +3,8 @@ body, html{
     height:100%;    
 }
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:200i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
+
 
 @font-face {
   font-family: Monaco;
@@ -48,7 +49,7 @@ body, html{
   }
 
   .Search-Input {
-    width: 75% !important;
+    width: 85% !important;
     height: 50px;
     background-color: white;
     padding-left:15px;
@@ -59,12 +60,13 @@ body, html{
 
   .button {
     width: 100px;
-    height: 50px;
+    height: 51px;
     border-radius: 2px;
     background-color: #ac53f2 !important;
     color:white !important;
     font-size:25px;    
     outline-width: none !important;
+    top:-1px;
   }
 
   .ico-search{

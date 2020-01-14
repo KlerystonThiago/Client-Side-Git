@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../assets/css/search.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const element = <FontAwesomeIcon className="ico-search" icon={faSearch} />
